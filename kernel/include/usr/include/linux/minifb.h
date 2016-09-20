@@ -12,7 +12,7 @@
 #define MINIFB_DEQUEUE_BUFFER _IOW(MINIFB_IOCTL_MAGIC, 4, struct minifb_req)
 
 struct minifb_session {
-	uint32_t token; 
+	uint32_t token; /* reserve */
 	uint32_t width;
 	uint32_t height;
 };
@@ -24,4 +24,4 @@ struct minifb_req {
 	uint32_t flags;
 };
 
-#endif 
+#endif /* _MINI_FB_H_ */

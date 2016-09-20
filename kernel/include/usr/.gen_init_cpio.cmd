@@ -1,6 +1,6 @@
-cmd_usr/gen_init_cpio := gcc -Wp,-MD,usr/.gen_init_cpio.d -Iusr -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -o usr/gen_init_cpio /home/Source/CM-12.1/kernel/htc/msm8916_64/usr/gen_init_cpio.c  
+cmd_usr/gen_init_cpio := gcc -Wp,-MD,usr/.gen_init_cpio.d -Iusr -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -o usr/gen_init_cpio /home/Source/Mokee/kernel/htc/msm8939/usr/gen_init_cpio.c  
 
-source_usr/gen_init_cpio := /home/Source/CM-12.1/kernel/htc/msm8916_64/usr/gen_init_cpio.c
+source_usr/gen_init_cpio := /home/Source/Mokee/kernel/htc/msm8939/usr/gen_init_cpio.c
 
 deps_usr/gen_init_cpio := \
   /usr/include/stdc-predef.h \

@@ -1,1 +1,1 @@
-deps_initramfs := /home/Source/CM-12.1/kernel/htc/msm8916_64/scripts/gen_initramfs_list.sh \
+deps_initramfs := /home/Source/Mokee/kernel/htc/msm8939/scripts/gen_initramfs_list.sh \
