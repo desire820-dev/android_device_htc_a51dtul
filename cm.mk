@@ -1,6 +1,8 @@
 # Release name
 PRODUCT_RELEASE_NAME := a51dtul
 
+LOCAL_PATH := device/htc/a51dtul
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
@@ -16,6 +18,9 @@ $(call inherit-product, device/htc/a51dtul/device.mk)
 
 BOARD_VENDOR := htc
 BOARD_NUMBER_OF_CAMERAS := 4
+
+BOARD_HARDWARE_CLASS := \
+    $(LOCAL_PATH)/cmhw
 
 # Device naming
 PRODUCT_NAME := cm_a51dtul
