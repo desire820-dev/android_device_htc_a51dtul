@@ -20,4 +20,6 @@ ifeq ($(TARGET_DEVICE),a51dtul)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
+include device/htc/a51dtul/kernel/AndroidKernel.mk
+
 endif
