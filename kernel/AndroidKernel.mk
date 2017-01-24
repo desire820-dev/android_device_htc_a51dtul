@@ -49,7 +49,19 @@ $(shell mkdir -p $(TARGET_OUT)/lib/modules/pronto; \
 
 # copy  wlan and fmradio modules
 $(shell cp $(LOCAL_MODULES_PATH)/radio-iris-transport.ko $(KERNEL_MODULES_OUT)/radio-iris-transport.ko)
-$(shell cp $(LOCAL_MODULES_PATH)/texfat.ko $(KERNEL_MODULES_OUT)/texfat.ko)
+$(shell cp $(LOCAL_MODULES_PATH)/moc_crypto.ko.sig.3.10 $(KERNEL_MODULES_OUT)/moc_crypto.ko.sig.3.10)
+$(shell cp $(LOCAL_MODULES_PATH)/ansi_cprng.ko $(KERNEL_MODULES_OUT)/ansi_cprng.ko)
+$(shell cp $(LOCAL_MODULES_PATH)/crypto_test_mod.ko $(KERNEL_MODULES_OUT)/crypto_test_mod.ko)
+$(shell cp $(LOCAL_MODULES_PATH)/dm-crypt.ko $(KERNEL_MODULES_OUT)/dm-crypt.ko)
+$(shell cp $(LOCAL_MODULES_PATH)/ecryptfs.ko $(KERNEL_MODULES_OUT)/ecryptfs.ko)
+$(shell cp $(LOCAL_MODULES_PATH)/evbug.ko $(KERNEL_MODULES_OUT)/evbug.ko)
+$(shell cp $(LOCAL_MODULES_PATH)/gspca_main.ko $(KERNEL_MODULES_OUT)/gspca_main.ko)
+$(shell cp $(LOCAL_MODULES_PATH)/mmc_test.ko $(KERNEL_MODULES_OUT)/mmc_test.ko)
+$(shell cp $(LOCAL_MODULES_PATH)/moc_crypto.ko $(KERNEL_MODULES_OUT)/moc_crypto.ko)
+$(shell cp $(LOCAL_MODULES_PATH)/moc_crypto_api_tmpl.ko $(KERNEL_MODULES_OUT)/moc_crypto_api_tmpl.ko)
+$(shell cp $(LOCAL_MODULES_PATH)/moc_platform_mod.ko $(KERNEL_MODULES_OUT)/moc_platform_mod.ko)
+$(shell cp $(LOCAL_MODULES_PATH)/radio-iris-transport.ko $(KERNEL_MODULES_OUT)/radio-iris-transport.ko)
+$(shell cp $(LOCAL_MODULES_PATH)/spidev.ko $(KERNEL_MODULES_OUT)/spidev.ko)
 $(shell cp $(LOCAL_MODULES_PATH)/pronto/pronto_wlan.ko $(KERNEL_MODULES_OUT)/pronto/pronto_wlan.ko)
 
 endif
