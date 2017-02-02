@@ -23,7 +23,7 @@ BOARD_HARDWARE_CLASS := \
     $(LOCAL_PATH)/cmhw
 
 # Device naming
-PRODUCT_NAME := cm_a51dtul
+PRODUCT_NAME := lineage_a51dtul
 PRODUCT_DEVICE := a51dtul
 PRODUCT_BRAND := htc
 PRODUCT_MANUFACTURER := HTC
